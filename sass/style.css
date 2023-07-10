@@ -13,45 +13,45 @@
   color: #fff;
   padding: 16px;
 }
-.container .header .header__title {
+.container .header .header-title {
   display: flex;
   align-items: center;
 }
-.container .header .header__title .header__menu button {
+.container .header .header-title .header-menu button {
   display: block;
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
 }
-.container .header .header__title .header__menu button i {
+.container .header .header-title .header-menu button i {
   color: #fff;
   font-size: 16px;
 }
-.container .header .header__title .header__img {
+.container .header .header-title .header-img {
   margin-left: 15px;
 }
-.container .header .header__title .header__img img {
+.container .header .header-title .header-img img {
   background-repeat: no-repeat;
   font-size: 0;
   height: 40px;
   width: 182px;
   display: block;
 }
-.container .header .header__nav {
+.container .header .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .header .header__nav ul {
+.container .header .header-nav ul {
   display: flex;
   align-items: center;
 }
-.container .header .header__nav ul li {
+.container .header .header-nav ul li {
   margin-left: 30px;
   list-style: none;
 }
-.container .header .header__nav ul li button {
+.container .header .header-nav ul li button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,19 +62,19 @@
   padding: 10px 12px;
   border-radius: 50px;
 }
-.container .header .header__nav ul li button span {
+.container .header .header-nav ul li button span {
   font-weight: 400;
   color: #000;
   font-size: 18px;
   margin-left: 5px;
 }
-.container .header .header__nav ul li a {
+.container .header .header-nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
 }
-.container .home__section .mobile-header {
+.container .home-section .mobile-header {
   display: flex;
   display: none;
   justify-content: space-between;
@@ -82,18 +82,18 @@
   padding: 16px;
   background: #000;
 }
-.container .home__section .mobile-header .header-menu-btn button {
+.container .home-section .mobile-header .header-menu-btn button {
   display: block;
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
 }
-.container .home__section .mobile-header .header-menu-btn button i {
+.container .home-section .mobile-header .header-menu-btn button i {
   color: #fff;
   font-size: 16px;
 }
-.container .home__section .mobile-header .header-host-btn button {
+.container .home-section .mobile-header .header-host-btn button {
   display: block;
   background: #fff;
   outline: none;
@@ -104,10 +104,10 @@
   padding: 8px 15px;
   border-radius: 20px;
 }
-.container .home__section .mobile-header .header-host-btn button img {
+.container .home-section .mobile-header .header-host-btn button img {
   margin-right: 10px;
 }
-.container .home__section .home__banner {
+.container .home-section .home-banner {
   width: 100%;
   min-height: 380px;
   background-image: url("https://www.zoomcar.com/img/web_banner.jpg");
@@ -121,7 +121,7 @@
   flex-direction: column;
   padding: 30px 20px;
 }
-.container .home__section .home__banner .home__banner__text {
+.container .home-section .home-banner .home-banner-text {
   max-width: 70%;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
@@ -129,19 +129,19 @@
   color: #fff;
   text-align: center;
 }
-.container .home__section .home__banner .home__banner__text h1 {
+.container .home-section .home-banner .home-banner-text h1 {
   font-size: 42px;
   font-weight: 700;
   line-height: 54.2px;
   margin-bottom: 20px;
 }
-.container .home__section .home__banner .home__banner__text p {
+.container .home-section .home-banner .home-banner-text p {
   margin-top: 20px;
   font-size: 28px;
   line-height: 36.2px;
   font-weight: bold;
 }
-.container .home__section .home__banner .location-calendar {
+.container .home-section .home-banner .location-calendar {
   position: relative;
   width: 60%;
   height: 60px;
@@ -150,23 +150,23 @@
   background-color: white;
   border-radius: 30px;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-tab {
+.container .home-section .home-banner .location-calendar .location-calendar-tab {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-tab:first-child {
+.container .home-section .home-banner .location-calendar .location-calendar-tab:first-child {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-tab:nth-child(4) {
+.container .home-section .home-banner .location-calendar .location-calendar-tab:nth-child(4) {
   background: #10a310;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   color: white;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-tab-title {
+.container .home-section .home-banner .location-calendar .location-calendar-tab-title {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
@@ -174,21 +174,21 @@
   color: #767676;
   opacity: 0.6;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-tab-title:hover {
+.container .home-section .home-banner .location-calendar .location-calendar-tab-title:hover {
   opacity: 0;
 }
-.container .home__section .home__banner .location-calendar .location-calendar-line {
+.container .home-section .home-banner .location-calendar .location-calendar-line {
   background: #979797;
   margin: 10px 0;
 }
-.container .home__section .home__banner .mobile-callendar {
+.container .home-section .home-banner .mobile-callendar {
   display: flex;
   display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.container .home__section .home__banner .mobile-callendar .location-calendar-tab {
+.container .home-section .home-banner .mobile-callendar .location-calendar-tab {
   height: 50px;
   max-width: 90%;
   width: 100%;
@@ -203,11 +203,11 @@
   background: #fff;
   color: #000;
 }
-.container .home__section .home__banner .mobile-callendar .location-calendar-tab:last-child {
+.container .home-section .home-banner .mobile-callendar .location-calendar-tab:last-child {
   color: #fff;
   background: #10a310;
 }
-.container .home__section .home__banner .location-calendar-container {
+.container .home-section .home-banner .location-calendar-container {
   position: absolute;
   background-color: white;
   height: 450px;
@@ -220,11 +220,11 @@
   overflow: hidden;
   box-sizing: border-box;
 }
-.container .categories__section {
+.container .categories-section {
   width: 100%;
   height: 130px;
 }
-.container .categories__section .car-categories {
+.container .categories-section .car-categories {
   max-width: 500px;
   width: 100%;
   height: 100%;
@@ -233,16 +233,16 @@
   justify-content: space-around;
   align-items: center;
 }
-.container .categories__section .car-categories .car-category {
+.container .categories-section .car-categories .car-category {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.container .categories__section .car-categories .car-category .car-category-icon i {
+.container .categories-section .car-categories .car-category .car-category-icon i {
   font-size: 32px;
 }
-.container .categories__section .car-categories .car-category .car-category-text {
+.container .categories-section .car-categories .car-category .car-category-text {
   padding: 10px 0 0 0;
 }
 .container .car-list {
