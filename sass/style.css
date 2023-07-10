@@ -76,6 +76,7 @@
 }
 .container .home__section .mobile-header {
   display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
