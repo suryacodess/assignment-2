@@ -1,6 +1,6 @@
 @media screen and (max-width: 1200px) {
   .container {
-    .home__section {
+    .home-section {
       .footer-location {
         .footer-location-inner {
           .qr-code {
@@ -28,19 +28,19 @@
     .header {
       display: none;
     }
-    .home__section {
+    .home-section {
       .mobile-header {
         display: flex;
       }
 
-      .home__banner {
-        .home__banner__text {
+      .home-banner {
+        .home-banner-text {
           max-width: 90%;
-          .home__banner_title {
+          .home-banner-title {
             font-size: 24px;
             line-height: 1.29;
           }
-          .home__banner__sub_title {
+          .home-banner-sub-title {
             font-size: 12px;
             line-height: 1.29;
           }
@@ -214,18 +214,18 @@
       display: none;
     }
 
-    .home__section {
-      .home__banner {
+    .home-section {
+      .home-banner {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
-        .home__banner__text {
-          .home__banner_title {
+        .home-banner-text {
+          .home-banner-title {
             font-size: 16px;
             margin-bottom: 10px;
           }
-          .home__banner__sub_title {
+          .home-banner-sub-title {
             margin: 0;
             font-size: 12px;
           }

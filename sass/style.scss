@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+// container
 .container {
   // header section
   .header {
@@ -14,10 +15,10 @@
     background: #000;
     color: #fff;
     padding: 16px;
-    .header__title {
+    .header-title {
       display: flex;
       align-items: center;
-      .header__menu {
+      .header-menu {
         button {
           display: block;
           background: none;
@@ -30,7 +31,7 @@
           }
         }
       }
-      .header__img {
+      .header-img {
         margin-left: 15px;
         img {
           background-repeat: no-repeat;
@@ -42,7 +43,7 @@
       }
     }
 
-    .header__nav {
+    .header-nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -85,7 +86,8 @@
   //header section styles ends here
 
   //home section
-  .home__section {
+  .home-section {
+    // mobile header
     .mobile-header {
       display: flex;
       display: none;
@@ -117,17 +119,19 @@
           cursor: pointer;
           display: flex;
           align-items: center;
-          padding:8px 15px;
+          padding: 8px 15px;
           border-radius: 20px;
 
-          img{
+          img {
             margin-right: 10px;
           }
         }
       }
     }
+    // mobile header styles ends here
 
-    .home__banner {
+    // home banner section
+    .home-banner {
       width: 100%;
       min-height: 380px;
       background-image: url("https://www.zoomcar.com/img/web_banner.jpg");
@@ -141,7 +145,7 @@
       flex-direction: column;
       padding: 30px 20px;
 
-      .home__banner__text {
+      .home-banner-text {
         max-width: 70%;
         width: 100%;
         background: rgba(0, 0, 0, 0.4);
@@ -162,6 +166,7 @@
         }
       }
 
+      // callendar section
       .location-calendar {
         position: relative;
         width: 60%;
@@ -206,6 +211,7 @@
         }
       }
 
+      // mobile callendar section
       .mobile-callendar {
         display: flex;
         display: none;
@@ -233,6 +239,7 @@
           }
         }
       }
+      // callendar section styles ends here
 
       .location-calendar-container {
         position: absolute;
@@ -252,7 +259,7 @@
   //home section styles ends here
 
   //categories section
-  .categories__section {
+  .categories-section {
     width: 100%;
     height: 130px;
     .car-categories {
@@ -279,7 +286,7 @@
       }
     }
   }
-  //categories section ends here
+  //categories section styles ends here
 
   //car list section
   .car-list {
@@ -960,5 +967,6 @@
       //footer copyright section sytles ends here
     }
   }
+  // footer location section styles ends here
   //footer section styles ends here
 }
