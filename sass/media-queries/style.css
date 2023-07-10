@@ -189,35 +189,35 @@
   .container .image-gallery .image-gallery-heading {
     padding: 30px 10px;
   }
-  .container .image-gallery .wrapper {
+  .container .image-gallery .wrapper2 {
     max-width: 88%;
     width: 100%;
     height: 100%;
     position: relative;
   }
-  .container .image-gallery .wrapper .carousel {
+  .container .image-gallery .wrapper2 .carousel2 {
     height: 350px !important;
     border-radius: 14px !important;
   }
-  .container .image-gallery .wrapper .carousel .card {
+  .container .image-gallery .wrapper2 .carousel2 .card2 {
     height: 350px;
   }
-  .container .image-gallery .wrapper .carousel .card .img {
+  .container .image-gallery .wrapper2 .carousel2 .card2 .img {
     height: 100%;
     width: 100%;
   }
-  .container .image-gallery .wrapper .carousel .card .img img {
+  .container .image-gallery .wrapper2 .carousel2 .card2 .img img {
     height: 100%;
     width: 100%;
   }
 }
 @media screen and (max-width: 668px) and (max-width: 900px) {
-  .container .image-gallery .wrapper .carousel {
+  .container .image-gallery .wrapper2 .carousel2 {
     grid-auto-columns: calc(50% - 9px);
   }
 }
 @media screen and (max-width: 668px) and (max-width: 600px) {
-  .container .image-gallery .wrapper .carousel {
+  .container .image-gallery .wrapper2 .carousel2 {
     grid-auto-columns: 100%;
   }
 }

@@ -455,13 +455,13 @@
 .container .image-gallery .image-gallery-heading h1 {
   font-size: clamp(12px, 2.5vw, 24px);
 }
-.container .image-gallery .wrapper {
+.container .image-gallery .wrapper2 {
   max-width: 88%;
   width: 100%;
   height: 100%;
   position: relative;
 }
-.container .image-gallery .wrapper i {
+.container .image-gallery .wrapper2 i {
   top: 50%;
   height: 50px;
   width: 50px;
@@ -476,16 +476,16 @@
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
-.container .image-gallery .wrapper i:active {
+.container .image-gallery .wrapper2 i:active {
   transform: translateY(-50%) scale(0.85);
 }
-.container .image-gallery .wrapper i:first-child {
+.container .image-gallery .wrapper2 i:first-child {
   left: -22px;
 }
-.container .image-gallery .wrapper i:last-child {
+.container .image-gallery .wrapper2 i:last-child {
   right: -22px;
 }
-.container .image-gallery .wrapper .carousel {
+.container .image-gallery .wrapper2 .carousel2 {
   height: 550px;
   display: grid;
   grid-auto-flow: column;
@@ -497,23 +497,23 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-.container .image-gallery .carousel::-webkit-scrollbar {
+.container .image-gallery .carousel2::-webkit-scrollbar {
   display: none;
 }
-.container .image-gallery .carousel.no-transition {
+.container .image-gallery .carousel2.no-transition {
   scroll-behavior: auto;
 }
-.container .image-gallery .carousel.dragging {
+.container .image-gallery .carousel2.dragging {
   scroll-snap-type: none;
   scroll-behavior: auto;
 }
-.container .image-gallery .carousel.dragging .card {
+.container .image-gallery .carousel2.dragging .card2 {
   cursor: grab;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.container .image-gallery .carousel .card {
+.container .image-gallery .carousel2 .card2 {
   scroll-snap-align: start;
   list-style: none;
   background: #fff;
@@ -521,23 +521,23 @@
   flex-direction: column;
   border-radius: 8px;
 }
-.container .image-gallery .carousel .card .img {
+.container .image-gallery .carousel2 .card2 .img {
   height: 100%;
   width: 100%;
 }
-.container .image-gallery .card .img img {
+.container .image-gallery .card2 .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media screen and (max-width: 900px) {
-  .container .image-gallery .wrapper .carousel {
+  .container .image-gallery .wrapper2 .carousel2 {
     grid-auto-columns: calc(50% - 9px);
   }
 }
 @media screen and (max-width: 600px) {
-  .container .image-gallery .wrapper .carousel {
+  .container .image-gallery .wrapper2 .carousel2 {
     grid-auto-columns: 100%;
   }
 }

@@ -525,14 +525,14 @@
       }
     }
 
-    .wrapper {
+    .wrapper2 {
       max-width: 88%;
       width: 100%;
       height: 100%;
       position: relative;
     }
 
-    .wrapper i {
+    .wrapper2 i {
       top: 50%;
       height: 50px;
       width: 50px;
@@ -547,16 +547,16 @@
       transform: translateY(-50%);
       transition: transform 0.1s linear;
     }
-    .wrapper i:active {
+    .wrapper2 i:active {
       transform: translateY(-50%) scale(0.85);
     }
-    .wrapper i:first-child {
+    .wrapper2 i:first-child {
       left: -22px;
     }
-    .wrapper i:last-child {
+    .wrapper2 i:last-child {
       right: -22px;
     }
-    .wrapper .carousel {
+    .wrapper2 .carousel2 {
       height: 550px;
       display: grid;
       grid-auto-flow: column;
@@ -568,22 +568,22 @@
       scroll-behavior: smooth;
       scrollbar-width: none;
     }
-    .carousel::-webkit-scrollbar {
+    .carousel2::-webkit-scrollbar {
       display: none;
     }
-    .carousel.no-transition {
+    .carousel2.no-transition {
       scroll-behavior: auto;
     }
-    .carousel.dragging {
+    .carousel2.dragging {
       scroll-snap-type: none;
       scroll-behavior: auto;
     }
-    .carousel.dragging .card {
+    .carousel2.dragging .card2 {
       cursor: grab;
       user-select: none;
     }
 
-    .carousel .card {
+    .carousel2 .card2 {
       scroll-snap-align: start;
       list-style: none;
       background: #fff;
@@ -591,25 +591,25 @@
       flex-direction: column;
       border-radius: 8px;
     }
-    .carousel .card .img {
+    .carousel2 .card2 .img {
       height: 100%;
       width: 100%;
     }
 
-    .card .img img {
+    .card2 .img img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
     @media screen and (max-width: 900px) {
-      .wrapper .carousel {
+      .wrapper2 .carousel2 {
         grid-auto-columns: calc((100% / 2) - 9px);
       }
     }
 
     @media screen and (max-width: 600px) {
-      .wrapper .carousel {
+      .wrapper2 .carousel2 {
         grid-auto-columns: 100%;
       }
     }

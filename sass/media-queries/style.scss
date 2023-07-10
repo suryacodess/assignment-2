@@ -258,15 +258,15 @@
       .image-gallery-heading {
         padding: 30px 10px;
       }
-      .wrapper {
+      .wrapper2 {
         max-width: 88%;
         width: 100%;
         height: 100%;
         position: relative;
-        .carousel {
+        .carousel2 {
           height: 350px !important;
           border-radius: 14px !important;
-          .card {
+          .card2 {
             height: 350px;
             .img {
               height: 100%;
@@ -282,13 +282,13 @@
       }
 
       @media screen and (max-width: 900px) {
-        .wrapper .carousel {
+        .wrapper2 .carousel2 {
           grid-auto-columns: calc((100% / 2) - 9px);
         }
       }
 
       @media screen and (max-width: 600px) {
-        .wrapper .carousel {
+        .wrapper2 .carousel2 {
           grid-auto-columns: 100%;
         }
       }
