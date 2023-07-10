@@ -290,6 +290,12 @@
     }
 
     .testimonial {
+      .testimonial-heading {
+        text-align: center;
+        h1 {
+          font-size: 14px;
+        }
+      }
       .wrapper {
         .carousel {
           .card {
@@ -301,10 +307,74 @@
             }
 
             .card-description {
-                padding: 0 10px;
-                h5{
-                    font-size: 14px;
-                }
+              padding: 0 10px;
+              h5 {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .footer-inner {
+        .footer-heading {
+          .footer-heading-title {
+            h2 {
+              font-size: 12px;
+            }
+          }
+        }
+        .footer-description {
+          .footer-description-block {
+            .footer-description-header {
+              font-size: 14px;
+            }
+            .footer-description-text {
+              font-size: 14px;
+            }
+          }
+
+          .footer-description-subblock {
+            .footer-description-subheader {
+              font-size: 12px;
+            }
+            .footer-description-subtext {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-location {
+      .footer-location-inner {
+        h2 {
+          font-size: 14px;
+        }
+        .india-cities {
+          h2 {
+            font-size: 14px;
+          }
+
+          .india-city {
+            .one,
+            .two {
+              .city {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .other-country {
+          .city {
+            h2 {
+              font-size: 14px;
+            }
+            p {
+              font-size: 14px;
             }
           }
         }

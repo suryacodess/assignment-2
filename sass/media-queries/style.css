@@ -217,6 +217,12 @@
   }
 }
 @media screen and (max-width: 668px) {
+  .container .testimonial .testimonial-heading {
+    text-align: center;
+  }
+  .container .testimonial .testimonial-heading h1 {
+    font-size: 14px;
+  }
   .container .testimonial .wrapper .carousel .card .img img {
     width: 150px;
     height: 150px;
@@ -225,6 +231,41 @@
     padding: 0 10px;
   }
   .container .testimonial .wrapper .carousel .card .card-description h5 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .container .footer .footer-inner .footer-heading .footer-heading-title h2 {
+    font-size: 12px;
+  }
+  .container .footer .footer-inner .footer-description .footer-description-block .footer-description-header {
+    font-size: 14px;
+  }
+  .container .footer .footer-inner .footer-description .footer-description-block .footer-description-text {
+    font-size: 14px;
+  }
+  .container .footer .footer-inner .footer-description .footer-description-subblock .footer-description-subheader {
+    font-size: 12px;
+  }
+  .container .footer .footer-inner .footer-description .footer-description-subblock .footer-description-subtext {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .container .footer-location .footer-location-inner h2 {
+    font-size: 14px;
+  }
+  .container .footer-location .footer-location-inner .india-cities h2 {
+    font-size: 14px;
+  }
+  .container .footer-location .footer-location-inner .india-cities .india-city .one .city,
+  .container .footer-location .footer-location-inner .india-cities .india-city .two .city {
+    font-size: 14px;
+  }
+  .container .footer-location .footer-location-inner .other-country .city h2 {
+    font-size: 14px;
+  }
+  .container .footer-location .footer-location-inner .other-country .city p {
     font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
